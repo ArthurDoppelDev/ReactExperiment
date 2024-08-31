@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+  --bg-color: #222831;
+  --secondary-color: #31363F;
+  --tertiary-color:#76ABAE;
+  --text-color: #EEEEEE
+}
+
+*{
+  font-family: Open sans, Arial, sans-serif;
+}
+
+body{
+  margin: 40px 20px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: 24px;
+}
+
+#item{
+  display: block;
+  background-color: var(--tertiary-color);
+  color: var(--text-color);
+  font-weight: bold;
+  border: none;
+  border-radius: 16px;
+  width: 512px;
+  padding: 8px;
+}
+
+.btn{
+  margin-top: 16px;
+  background-color: var(--secondary-color);
+  border: solid 1px;
+  border-color: var(--tertiary-color);
+  border-radius: 4px;
+  color: var(--tertiary-color);
+  font-size: 16px;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+button:hover{
+  opacity: 0.7;
+}
+button:active{
+  opacity: 0.5;
+}
+
+h1{
+  font-size: 32px;
+}
+
+ul{
+  list-style: none;
+}
+input[type="checkbox"] {
+  width: 1.5em;
+  height: 1.5rem;
+  accent-color: var(--tertiary-color);
+  vertical-align:middle;
+  border-radius: 4px;
+}
+
+.delete-btn{
+  margin-left: 10px;
+  color: rgb(243, 63, 63);
+  border-color: rgb(243, 63, 63);
+}
+
+
